@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="145" viewBox="0 0 570 145"><g transform="translate(18 15) scale(.75)"><g id="symbol">
+<circle cx="54" cy="28" r="16" fill="#4CC24A"/>
+<path d="M38 53 H64 V126 H38 Z" fill="#0B2A4A"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2D8CFF"/><stop offset="1" stop-color="#0758C9"/></linearGradient></defs>
+<path d="M72 14 C133 17 164 43 158 77 C154 102 126 112 99 121 C80 128 72 139 66 151 H39 C46 124 63 108 91 97 C116 87 132 79 132 66 C132 51 113 44 82 43 Z" fill="url(#bg)"/>
+<path d="M62 58 C87 53 110 55 123 65 C112 72 100 78 86 83 C76 87 68 92 62 98 Z" fill="white"/>
+</g></g><text x="155" y="105" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#0B2A4A">iDV<tspan fill="#2D8CFF">Path</tspan></text><circle cx="163" cy="55" r="5" fill="#4CC24A"/><text x="157" y="133" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="4" fill="#0B2A4A">IDEAS INTO SOLUTIONS.</text></svg>
