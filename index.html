@@ -12,7 +12,7 @@
 <body>
   <header class="site-header" id="top">
     <div class="wrap nav-wrap">
-      <a class="brand" href="#top" aria-label="iDVPath home"><img src="assets/logo.svg" alt="iDVPath" /></a>
+      <a class="brand" href="#top" aria-label="iDVPath home"><img src="assets/idvpath-logo-horizontal.svg" alt="iDVPath" /></a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">☰</button>
       <nav class="nav" id="primary-nav" aria-label="Primary navigation">
         <a href="#what">What we do</a><a href="#software">Software</a><a href="#data">Data &amp; workflow</a>
@@ -52,7 +52,7 @@
 
         <div class="product-grid">
           <article class="product-card reveal">
-            <figure class="product-visual"><img src="assets/sendmail-overview.jpg" alt="SendMail interface showing a prepared recurring email workflow" /></figure>
+            <figure class="product-visual"><button class="lightbox-trigger" type="button" aria-label="Enlarge SendMail overview image"><img src="assets/sendmail-overview.jpg" alt="SendMail interface showing a prepared recurring email workflow" /></button></figure>
             <div class="product-copy">
               <div class="product-meta"><span>SendMail</span><span class="badge">In use · Actively refined</span><span class="platform">Windows</span></div>
               <h3>Prepare. Open. Copy. Send.<br /><em>You stay in control.</em></h3>
@@ -66,7 +66,7 @@
           </article>
 
           <article class="product-card reveal">
-            <figure class="product-visual"><img src="assets/keepawake-overview.jpg" alt="KeepAwake utility overview on Windows" /></figure>
+            <figure class="product-visual"><button class="lightbox-trigger" type="button" aria-label="Enlarge KeepAwake overview image"><img src="assets/keepawake-overview.jpg" alt="KeepAwake utility overview on Windows" /></button></figure>
             <div class="product-copy">
               <div class="product-meta"><span>KeepAwake</span><span class="badge">Released · Version 1.0.0</span><span class="platform">Windows 10/11</span></div>
               <h3>Keep your Windows awake.<br /><em>Simple. Light. Reliable.</em></h3>
@@ -115,6 +115,10 @@
   </main>
 
   <footer class="footer"><div class="wrap footer-grid"><div><img src="assets/logo.svg" class="footer-logo" alt="iDVPath" /><p>Ideas into solutions.</p></div><div><h3>Quick links</h3><a href="#what">What we do</a><a href="#software">Software</a><a href="#data">Data &amp; workflow</a><a href="#web">Web solutions</a></div><div><h3>Contact</h3><p>hello@idvpath.com</p><p class="muted">Email service setup is in progress</p></div></div><div class="wrap footer-bottom"><span>© 2026 iDVPath. All rights reserved.</span><a href="privacy.html">Privacy Policy</a></div></footer>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged product overview" hidden>
+    <button class="lightbox-close" type="button" aria-label="Close enlarged image">&times;</button>
+    <img class="lightbox-image" alt="" />
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
